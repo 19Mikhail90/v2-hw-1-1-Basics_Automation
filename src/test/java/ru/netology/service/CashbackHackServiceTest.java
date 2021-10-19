@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-class CashbackHackServiceTest {
+public class CashbackHackServiceTest {
     @Test
     void shouldMissingAmount() {
         CashbackHackService service = new CashbackHackService();
