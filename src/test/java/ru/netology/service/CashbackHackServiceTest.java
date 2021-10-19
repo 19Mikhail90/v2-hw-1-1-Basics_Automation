@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class CashbackHackServiceTest {
     @Test
-    void shouldMissingAmount() {
+    public void shouldMissingAmount() {
         CashbackHackService service = new CashbackHackService();
         int amount = 800;
 
