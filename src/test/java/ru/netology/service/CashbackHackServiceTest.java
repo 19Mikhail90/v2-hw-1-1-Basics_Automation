@@ -8,10 +8,10 @@ public class CashbackHackServiceTest {
     @Test
     void shouldMissingAmount() {
         CashbackHackService service = new CashbackHackService();
-        int amount = 900;
+        int amount = 1000;
 
         int actualResult = service.remain(amount);
-        int expectedResult = 100;
+        int expectedResult = 0;
 
         Assert.assertEquals(actualResult, expectedResult);
     }
